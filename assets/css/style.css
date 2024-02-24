@@ -20,9 +20,10 @@ nav{
     background-color: #E5E5E5;
 }
 span{
+    border-radius: 4px;
     background-color: #E74C3C;
     color: white;
-    padding: 5px;
+    padding: 8px;
 }
 li{
     display: inline;
@@ -69,6 +70,7 @@ li{
 .programacao{
     margin-right: 140px;
     margin-left: 140px;
+    margin-bottom: 100px;
 }
 .programacao_titulo{
     font-size: 22px;
@@ -77,6 +79,9 @@ li{
 .data{
     font-size: 16px;
 }
+.data1{
+    margin-bottom: 50px;
+}
 .palestrante{
     display: flex;
     align-items: center;
@@ -84,4 +89,39 @@ li{
 }
 .palestrante_texto{
     margin-left: 20px;
+}
+.localizacao_titulo{
+    margin-right: 140px;
+    margin-left: 140px;
+    margin-bottom: 30px;
+    font-size: 22px;
+}
+.background-image {
+    background-image: url(../images/mapa.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 559px;
+}
+footer{
+    width: 100%;
+    height: 200px;
+    background-color: #2D3748;
+}
+.realizacao_titulo{
+    font-size: 22px;
+    margin-right: 140px;
+    margin-left: 140px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+.images_footer{
+    margin-right: 140px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+}
+.image{
+    padding-right: 50px;
 }
