@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
     <link href="assets/css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <nav>
-            <li>Sobre</li>
-            <li>Programação</li>
-            <li>Localização</li>
-            <li><span>Inscreva-se</span></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#programacao">Programação</a></li>
+            <li><a href="#localizacao">Localização</a></li>
+            <li><span><a class="inscrever" href="#">Inscreva-se</a></span></li>
         </nav>
         <div class="titulos">
             <div class="titulo">
@@ -25,9 +32,10 @@
     </header>
     <main>
         <section>
-            <p class="descricao">A <b>IV Semana do CST em ADS</b> tem como foco proporcionar aos seus alunos e comunidade interessada palestras e oficinas de áreas de Inteligência Artificial, IoT e Data Science.</p>
+            <p class="descricao" id="sobre">A <b>IV Semana do CST em ADS</b> tem como foco proporcionar aos seus alunos e
+                comunidade interessada palestras e oficinas de áreas de Inteligência Artificial, IoT e Data Science.</p>
 
-            <div class="programacao">
+            <div class="programacao" id="programacao">
 
                 <p class="programacao_titulo"><b>Programação</b></p>
 
@@ -63,10 +71,10 @@
                     </div>
                 </div>
             </div>
-            
-            <div class="localizacao">
+
+            <div class="localizacao" id="localizacao">
                 <p class="localizacao_titulo"><b>Localização</b></p>
-                <div class="background-image">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3047.688393183964!2d-60.12130740968054!3d-12.70365259093575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x93b96be3e6498bd7%3A0x66ce4f62185d43bb!2sInstituto%20Federal%20de%20Rond%C3%B4nia%20-%20Campus%20Vilhena!5e1!3m2!1spt-BR!2sbr!4v1708992370204!5m2!1spt-BR!2sbr" width="600" height="450" class="background-image" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
                 </div>
             </div>
@@ -80,4 +88,5 @@
         </div>
     </footer>
 </body>
+
 </html>
